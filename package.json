@@ -1,0 +1,60 @@
+{
+  "name": "mouse-controller",
+  "version": "1.0.0",
+  "description": "Node.js C++ Addon for controlling mouse",
+  "keywords": [
+    "native",
+    "addon",
+    "c++",
+    "mouse",
+    "click",
+    "move",
+    "emulator"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "install": "node-pre-gyp install --fallback-to-build",
+    "clean": "node-gyp clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andstor/mouse-controller.git"
+  },
+  "author": {
+    "name": "André Storhaug",
+    "email": "andr3.storhaug@gmail.com",
+    "url": "https://github.com/andstor"
+  },
+  "bugs": {
+    "url": "https://github.com/andstor/mouse-controller/issues"
+  },
+  "homepage": "https://github.com/andstor/mouse-controller",
+  "files": [
+    "index.js",
+    "cppsrc/"
+  ],
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^2.0.0",
+    "node-pre-gyp": "^0.14.0",
+    "node-pre-gyp-github": "^1.4.3"
+  },
+  "devDependencies": {},
+  "os": [
+    "darwin"
+  ],
+  "engines": {
+    "node": ">=10.0"
+  },
+  "binary": {
+    "module_name": "mouse_controller",
+    "module_path": "./lib/binding/napi-v{napi_build_version}",
+    "remote_path": "{version}",
+    "package_name": "v{version}-{platform}-{arch}-napi-v{napi_build_version}.tar.gz",
+    "host": "https://github.com/andstor/mouse-controller/releases/download/",
+    "napi_versions": [
+      3
+    ]
+  },
+  "gypfile": true
+}
