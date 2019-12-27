@@ -1,6 +1,6 @@
 # mouse-controller
 
-> Node.js C++ Addon for controlling mouse behavior
+> Node.js C++ Addon for emulating mouse behavior
 
 [![Build Status](https://travis-ci.org/andstor/mouse-controller.svg?branch=master)](https://travis-ci.org/andstor/mouse-controller)
 [![Coverage Status](https://coveralls.io/repos/github/andstor/mouse-controller/badge.svg?branch=master)](https://coveralls.io/github/andstor/mouse-controller?branch=master)
