@@ -31,14 +31,16 @@
   "homepage": "https://github.com/andstor/mouse-controller",
   "files": [
     "index.js",
-    "cppsrc/"
+    "binding.gyp",
+    "cppsrc"
   ],
   "dependencies": {
     "node-addon-api": "^2.0.0",
-    "node-pre-gyp": "^0.14.0",
+    "node-pre-gyp": "^0.14.0"
+  },
+  "devDependencies": {
     "node-pre-gyp-github": "^1.4.3"
   },
-  "devDependencies": {},
   "os": [
     "darwin"
   ],
