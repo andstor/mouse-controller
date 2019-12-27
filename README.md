@@ -133,5 +133,5 @@ End a mouse drag by releasing the left mouse button at the point (`x`, `y`).
 
 ## License
 
-mouse-controller is licensed under the [MIT License](https://github.com/andstor/mouse-controller/blob/master/LICENSE).
+mouse-controller is licensed under the [MIT License](https://github.com/andstor/mouse-controller/blob/master/LICENSE).  
 Copyright © [André Storhaug](https://github.com/andstor)
