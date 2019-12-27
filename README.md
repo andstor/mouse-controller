@@ -38,7 +38,7 @@ npm install mouse-controller --build-from-source
 ## Usage
 
 ### Syntax
-```
+```js
 new MouseController()
 ```
 
