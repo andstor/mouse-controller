@@ -26,7 +26,7 @@
                     ]
                 },
                 "sources": [
-                    "cppsrc/mouse.cpp",
+                    "cppsrc/macos/mouse.cpp",
                 ],
             }],
         ],
