@@ -10,8 +10,9 @@
   * [Supported Plattforms](#supported-plattforms)
   * [Installation](#installation)
   * [Usage](#usage)
+  * [Constants](#constants)
   * [Methods](#methods)
-  * [Build instrictions](#build-instructions)
+  * [License](#license)
 
 ## Supported Plattforms
 
@@ -129,3 +130,8 @@ To move the mouse that is activly dragging,  the point (`x`, `y`).
   - Object with `x` and `y` coordinates of the vanted mouse position to end the mouse drag on.
 
 End a mouse drag by releasing the left mouse button at the point (`x`, `y`).
+
+## License
+
+mouse-controller is licensed under the [MIT License](https://github.com/andstor/mouse-controller/blob/master/LICENSE).
+Copyright © [André Storhaug](https://github.com/andstor)
