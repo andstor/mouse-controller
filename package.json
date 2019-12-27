@@ -1,7 +1,7 @@
 {
   "name": "mouse-controller",
   "version": "1.0.0",
-  "description": "Node.js C++ Addon for controlling mouse behavior",
+  "description": "Node.js C++ Addon for emulating mouse behavior",
   "keywords": [
     "native",
     "addon",
